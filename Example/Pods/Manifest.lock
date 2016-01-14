@@ -1,0 +1,12 @@
+PODS:
+  - BlinkingLabel (0.3.0)
+
+DEPENDENCIES:
+  - BlinkingLabel
+
+SPEC CHECKSUMS:
+  BlinkingLabel: ed265b3d684f3b025ac842a70af8e5a8a3b66a52
+
+PODFILE CHECKSUM: d44bb960dddbc32eaa9d6e4e17c1fcc3eb2a418e
+
+COCOAPODS: 1.0.0.beta.2
