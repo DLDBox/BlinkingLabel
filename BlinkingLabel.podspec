@@ -16,7 +16,9 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "BlinkingLabel is a UILabel which blinks at a given interval."
+  s.description      = <<-DESC
+                BlinkingLabel is a UILabel which blinks at a given interval.
+    DESC
 
   s.homepage         = "https://github.com/DLDBox/BlinkingLabel"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
