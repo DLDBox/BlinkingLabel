@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     var isBlinking = false
     let blinkingLabel = BlinkingLabel(frame: CGRectMake(10, 20, 200, 30))
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         
         // Setup the BlinkingLabel
@@ -27,7 +28,7 @@ class ViewController: UIViewController {
         let toggleButton = UIButton(frame: CGRectMake(10, 60, 125, 30))
         toggleButton.setTitle("Toggle Blinking", forState: .Normal)
         toggleButton.setTitleColor(UIColor.redColor(), forState: .Normal)
-        toggleButton.addTarget(self, action: "toggleBlinking", forControlEvents: .TouchUpInside)
+        toggleButton.addTarget(self, action:#selector(ViewController.toggleBlinking), forControlEvents: .TouchUpInside)
         view.addSubview(toggleButton)
     }
     
